@@ -14,7 +14,8 @@ import talib.abstract as ta
 import freqtrade.vendor.qtpylib.indicators as qtpylib
 
 
-# This class is a sample. Feel free to customize it.
+# This strategy is based on https://www.tradingview.com/script/i3Uc79fF-Flawless-Victory-Strategy-15min-BTC-Machine-Learning-Strategy/
+# Author of the original Pinescript strategy: Robert Roman (https://github.com/TreborNamor)
 class FlawlessVictory(IStrategy):
     # Strategy interface version - allow new iterations of the strategy interface.
     # Check the documentation or the Sample strategy to get the latest version.

@@ -1,5 +1,8 @@
 # Flawless Victory
 
+###### The 'Flawless Victory' strategy code is based on this [TV strategy](https://www.tradingview.com/u/Bunghole/)
+###### Author of the original Pinescript strategy: [Robert Roman](https://github.com/TreborNamor)
+
 ## Getting Started
 
 ```docker-compose run --rm freqtrade create-userdir --userdir user_data```
