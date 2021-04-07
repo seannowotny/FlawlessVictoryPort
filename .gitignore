@@ -1,3 +1,9 @@
+/user_data/data
+/user_data/backtest_results
+/user_data/plot
+
+TA_Lib-0.4.19-cp37-cp37m-win_amd64.whl
+
 # Freqtrade rules
 config-private.json
 *.sqlite

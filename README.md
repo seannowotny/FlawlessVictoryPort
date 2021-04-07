@@ -12,10 +12,10 @@
 ```docker-compose run --rm freqtrade download-data -t 15m -c ./user_data/config.json -c ./user_data/config-private.json --timerange 20200210-20210210```
 
 #### Backtest
-```docker-compose run --rm freqtrade backtesting --fee 0.005 --strategy-list FlawlessVictory -c ./user_data/config.json -c ./user_data/config-private.json --timerange 20200210-20210210```
+```docker-compose run --rm freqtrade backtesting --fee 0.005 --strategy-list FlawlessVictory -c ./user_data/config.json -c ./user_data/config-private.json --timerange 20200210-20210210 --export EXPORT```
 
 #### Plot
-```docker-compose run --rm freqtrade plot-dataframe -s FlawlessVictory -p LINK/USDT --indicators1 bb_lowerband, bb_middleband, bb_upperband --indicators2 rsi -c ./user_data/config.json -c ./user_data/config-private.json```
+```docker-compose run --rm freqtrade plot-dataframe -s FlawlessVictory -p BTC/USDT -c ./user_data/config.json -c ./user_data/config-private.json```
 
 #### Hyperopt
 ```docker-compose run --rm freqtrade new-hyperopt --hyperopt FlawlessVictoryOPT  -c ./user_data/config.json -c ./user_data/config-private.json```
