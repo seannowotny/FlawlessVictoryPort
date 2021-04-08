@@ -1,9 +1,9 @@
 {
     "dry_run": true,
     "dry_run_wallet": 1000,
-    "max_open_trades": -1,
+    "max_open_trades": 1,
     "stake_currency": "USDT",
-    "stake_amount": 1000,
+    "stake_amount": "unlimited",
     "tradable_balance_ratio": 1.00,
     "fiat_display_currency": "USD",
     "timeframe": "15m",
