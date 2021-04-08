@@ -1,0 +1,4 @@
+# Ignore Private Config
+config-private.json
+# Ignore JetBrains .idea Folder
+.idea/
