@@ -26,11 +26,7 @@ docker-compose run --rm freqtrade plot-dataframe -s FlawlessVictoryV1 -p BTC/USD
 For Hyper Opting
 
 ```properties
-docker-compose run --rm freqtrade new-hyperopt --hyperopt FlawlessVictoryV1OPT  -c ./user_data/config.json -c ./user_data/config-private.json
-```
-
-```properties
-docker-compose run --rm freqtrade hyperopt --spaces all --hyperopt FlawlessVictoryV1OPT --hyperopt-loss SortinoHyperOptLoss -s FlawlessVictoryV1 -e 1000 -c ./user_data/config.json -c ./user_data/config-private.json
+docker-compose run --rm freqtrade hyperopt --spaces all --hyperopt-loss SortinoHyperOptLoss -s FlawlessVictoryV1 -e 1000 -c ./user_data/config.json -c ./user_data/config-private.json
 ```
 
 ```properties
